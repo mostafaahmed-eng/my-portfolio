@@ -4,17 +4,19 @@
   <meta charset="UTF-8">
   <title>Mostafa Anwar | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
+  <img src="profile.jpg" alt="Mostafa Anwar" class="profile-img">
   <h1>Mostafa Anwar Farhat</h1>
   <p>Embedded Systems • Cloud Computing • Generative AI</p>
 </header>
 
 <section>
   <h2>About Me</h2>
-  <p>I am an engineer with a strong interest in Embedded Systems, Cloud Computing, and Generative AI technologies...</p>
+  <p>I am an engineer with a strong interest in Embedded Systems, Cloud Computing, and Generative AI technologies. Passionate about creating innovative solutions and learning new technologies.</p>
 </section>
 
 <section>
@@ -44,9 +46,16 @@
 
 <section>
   <h2>Contact</h2>
-  <p>Email: mostafaahmed862004@gmail.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/malak-anwar-404m">Profile</a></p>
+  <p>Email: <a href="mailto:mostafaahmed862004@gmail.com">mostafaahmed862004@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/malak-anwar-404m" target="_blank">Profile</a></p>
+  <button class="contact-btn" onclick="alert('Email: mostafaahmed862004@gmail.com')">Contact Me</button>
 </section>
+
+<script>
+document.querySelector('.contact-btn').addEventListener('click', () => {
+  console.log('Contact button clicked!');
+});
+</script>
 
 </body>
 </html>
